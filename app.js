@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             wordCard.className = 'word-card';
 
             wordCard.innerHTML = `
-                <h2>${word.TranslatedWord}</h2>
+                <h2>${TranslatedWord.TranslatedWord}</h2>
                 <p><strong>発音:</strong> ${word.pronunciation}</p>
                 <p><strong>品詞:</strong> ${word.partOfSpeech}</p>
                 <p><strong>意味:</strong> ${word.meaning}</p>
