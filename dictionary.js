@@ -1,93 +1,106 @@
 const dictionary = [
     {
-        word: "yu",
-        pronunciation: "ü",
+        word: "湯",
+        pronunciation: "yu",
         partOfSpeech: "名詞",
         meaning: "お湯",
-        example: "watashi wa ringo wo taberu"
+        translatedWord: "yu",
+        example: "yai wa ringo wo taberu"
     },
     {
-        word: "mushi",
+        word: "虫",
         pronunciation: "mushi",
         partOfSpeech: "名詞",
         meaning: "虫",
-        example: "watashi wa ringo wo taberu"
+        translatedWord: "muɕe",
+        example: "yai wa ringo wo taberu"
     },
     {
-        word: "ashi",
-        pronunciation: "æshi",
+        word: "足",
+        pronunciation: "ashi",
         partOfSpeech: "名詞",
         meaning: "足",
-        example: "watashi wa ringo wo taberu"
+        translatedWord: "æshɛ",
+        example: "yai wa ringo wo taberu"
     },
     {
-        word: "te",
-        pronunciation: "tē",
+        word: "手",
+        pronunciation: "te",
         partOfSpeech: "名詞",
         meaning: "手",
-        example: "watashi wa ringo wo taberu"
+        translatedWord: "tʼe",
+        example: "yai wa ringo wo taberu"
     },
     {
-        word: "otoge",
-        pronunciation: "otoge",
+        word: "頤",
+        pronunciation: "ago",
         partOfSpeech: "名詞",
         meaning: "頤",
-        example: "watashi wa ringo wo taberu"
+        translatedWord: "otoge",
+        example: "yai wa ringo wo taberu"
     },
     {
-        word: "hitai",
+        word: "額",
         pronunciation: "hitai",
         partOfSpeech: "名詞",
         meaning: "額",
-        example: "watashi wa ringo wo taberu"
+        translatedWord: "q͡χite",
+        example: "yai wa ringo wo taberu"
     },
     {
-        word: "ago",
-        pronunciation: "aɡo",
+        word: "顎",
+        pronunciation: "ago",
         partOfSpeech: "名詞",
         meaning: "顎",
-        example: "watashi wa ringo wo taberu"
+        translatedWord: "aɡo",
+        example: "ago"
     },
     {
-        word: "kao",
+        word: "顔",
         pronunciation: "kao",
         partOfSpeech: "名詞",
         meaning: "顔",
-        example: "watashi wa ringo wo taberu"
+        translatedWord: "kaɔ",
+        example: "yai wa ringo wo taberu"
     },
     {
-        word: "watashi",
+        word: "私",
         pronunciation: "watashi",
         partOfSpeech: "名詞",
         meaning: "私",
-        example: "watashi wa ringo wo taberu"
+        translatedWord: "yai",
+        example: "yai wa ringo wo taberu"
     },
     {
-        word: "ringo",
-        pronunciation: "riŋgo",
+        word: "リンゴ",
+        pronunciation: "ringo",
         partOfSpeech: "名詞",
         meaning: "リンゴ",
-        example: "watashi wa ringo wo taberu"
+        translatedWord: "riŋgin",
+        example: "yai wa ringgin wo sokur"
     },
     {
-        word: "taberu",
-        pronunciation: "tabeɾu",
+        word: "食べる",
+        pronunciation: "taberu",
         partOfSpeech: "動詞",
         meaning: "食べる",
-        example: "watashi wa ringo wo taberu"
+        translatedWord: "sokuɾ",
+        example: "yai ya ringgin wo sokur"
     },
     {
-        word: "wa",
+        word: "は",
         pronunciation: "wa",
         partOfSpeech: "助詞",
         meaning: "主語を示す助詞",
-        example: "watashi wa ringo wo taberu"
+        translatedWord: "ya",
+        example: "yai ya ringgin wo sokur"
     },
     {
-        word: "wo",
+        word: "を",
         pronunciation: "wo",
         partOfSpeech: "助詞",
         meaning: "目的語を示す助詞",
-        example: "watashi wa ringo wo taberu"
+        translatedWord: "wo",
+        example: "yai wa ringgin wo taberu"
     }
 ];
