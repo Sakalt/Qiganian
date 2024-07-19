@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>辞書アプリ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .search-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        #search {
+            width: 80%;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .word-card {
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        .word-card h2 {
+            margin: 0;
+        }
+
+        .example {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px dashed #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>辞書アプリ</h1>
+    <div class="search-container">
+        <input type="text" id="search" placeholder="検索...">
+    </div>
+    <div id="word-list"></div>
+    <script src="dictionary.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
